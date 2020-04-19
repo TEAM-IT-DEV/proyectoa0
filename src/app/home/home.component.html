@@ -1,0 +1,374 @@
+
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+	
+	<div id="loader_form">
+		<div data-loader="circle-side-2"></div>
+	</div><!-- /loader_form -->
+
+	<header>
+		<div class="container">
+		    <div class="row">
+                <div class="col-3">
+                     <a href="index.html">
+                        <img src="../assets/img/alianza-Team-Campaña.png" alt="" width="200" height="65" class="d-none d-md-block">
+                        <img src="../assets/img/logo_mobile.png" alt="" width="100" height="32" class="d-block d-md-none">
+                    </a>
+                </div>
+                <div class="col-9">
+                    <div id="social">
+                        <ul>
+                            <li><a href="#0"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#0"><i class="icon-twitter"></i></a></li>
+                            <li><a href="#0"><i class="icon-google"></i></a></li>
+                            <li><a href="#0"><i class="icon-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- /social -->
+					<a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+					<!-- /menu button -->
+                    <nav>
+						<ul class="cd-primary-nav">
+							<li><a href="index.html" class="animated_link">Questionnaire</a></li>
+							<li><a href="prevention.html" class="animated_link">Prevention Tips</a></li>
+							<li><a href="faq.html" class="animated_link">Faq</a></li>
+							<li><a href="contacts.html" class="animated_link">Contact Us</a></li>
+							<li><a href="#0" class="animated_link">Acerca de esta Pagina</a></li>
+						</ul>
+					</nav>
+					<!-- /menu -->
+                </div>
+            </div>
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
+
+	<div class="container">
+    <div id="form_container">
+        <div class="row no-gutters">
+            <div class="col-lg-4">
+                <div id="left_form">
+                    <figure><img src="../assets/img/info_graphic_1.svg" alt="" width="100" height="100"></figure>
+                    <h2>CORONAVIRUS <span>Cuestionario de salud</span></h2>
+                    <p>Ayúdenos a cuidar a Usted y a su familia, Complete el siguiente Formulario.</p>
+                    <!--<a href="" class="btn_1 rounded yellow purchase" target="_parent">boton1</a>-->
+	                <a href="#wizard_container" class="btn_1 rounded mobile_btn yellow">Start Now!</a>
+                    <a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i class="pe-7s-info"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div id="wizard_container">
+                    <div id="top-wizard">
+                        <div id="progressbar"></div>
+                        <span id="location"></span>
+                    </div>
+                    <!-- /top-wizard -->
+                    <form id="wrapped" method="post">
+                        <input id="website" name="website" type="text" value="">
+                        <!-- Leave for security protection, read docs for details -->
+                        <div id="middle-wizard">
+
+                            <div class="step">
+                                <h3 class="main_question"><i class="arrow_right"></i>¿Ha viajado a alguno de los destinos a continuación en los últimos 21 días?</h3>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="container_check version_2">China
+                                                <input type="checkbox" name="question_1[]" value="China" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="container_check version_2">Korea
+                                                <input type="checkbox" name="question_1[]" value="South Korea" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="container_check version_2">Iran
+                                                <input type="checkbox" name="question_1[]" value="Iran" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="container_check version_2">Europa
+                                                <input type="checkbox" name="question_1[]" value="Europe" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="container_check version_2">Estados Unidos
+                                                <input type="checkbox" name="question_1[]" value="US States" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="container_check version_2">Ninguna de las anteriores
+                                                <input type="checkbox" name="question_1[]" value="Mobile Design" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /row -->
+                            </div>
+                            <!-- /step-->
+
+                            <div class="step">
+                                <h3 class="main_question"><i class="arrow_right"></i>¿Has estado en contacto recientemente con una persona con Coronavirus?</h3>
+                                <div class="form-group">
+                                    <label class="container_radio version_2">Si
+                                        <input type="radio" name="question_2" value="Yes" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container_radio version_2">No
+                                        <input type="radio" name="question_2" value="No" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /step-->
+
+                            <!-- /Start Branch ============================== -->
+                            <div class="step">
+                                <label class="custom add_top_10"></label>
+                                <h3 class="main_question"><i class="arrow_right"></i>¿Tienes alguna dificultad para respirar?</h3>
+                                <div class="form-group">
+                                    <label class="container_radio version_2">Si
+                                        <input type="radio" name="question_3" value="Yes" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container_radio version_2">No
+                                        <input type="radio" name="question_3" value="No" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <small>* Start branch radio based </small>
+                            </div>
+
+                            <!-- /difficulty in breathing > Yes ============================== -->
+                            <div class="step">
+                                <h3 class="main_question"><i class="arrow_right"></i>Marque cualquiera de los siguientes síntomas que se pueden aplicar a usted.</h3>
+                                <div class="form-group">
+                                    <label class="container_check version_2">Falta de aliento o respiración muy rápida
+                                        <input type="checkbox" name="question_4[]" value="Shortness of breath or breathing very fast" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="container_check version_2">Falta de aliento y dolor intenso en el pecho.
+                                        <input type="checkbox" name="question_4[]" value="Shortness of breath & Intense chest pain" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="container_check version_2">Sin animo
+                                        <input type="checkbox" name="question_4[]" value="Cannot complete a long sentence in one breath" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="container_check version_2">Ninguno de los anteriores
+                                        <input type="checkbox" name="question_4[]" value="None of the above" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /step-->
+
+                            <!-- /difficulty in breathing > No ============================== -->
+                            <div class="step">
+                                <h3 class="main_question"><i class="arrow_right"></i>¿Tiene fiebre superior a 38° C?</h3>
+                                <div class="form-group">
+                                    <label class="container_radio version_2">Si
+                                        <input type="radio" name="question_5" value="Yes" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container_radio version_2">No
+                                        <input type="radio" name="question_5" value="No" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /step-->
+
+                            <div class="step">
+                                <h3 class="main_question"><i class="arrow_right"></i>¿Tienes goteo nasal?</h3>
+                                <div class="form-group">
+                                    <label class="container_radio version_2">Si
+                                        <input type="radio" name="question_6" value="Yes" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container_radio version_2">No
+                                        <input type="radio" name="question_6" value="No" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /step-->
+
+                            <div class="step">
+                                <h3 class="main_question"><i class="arrow_right"></i>¿Estás experimentando dolores musculares, debilidad o aturdimiento?</h3>
+                                <div class="form-group">
+                                    <label class="container_radio version_2">Si
+                                        <input type="radio" name="question_7" value="Yes" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container_radio version_2">No
+                                        <input type="radio" name="question_7" value="No" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /step-->
+
+                            <div class="step">
+                                <h3 class="main_question"><i class="arrow_right"></i>¿Tiene diarrea, dolor de estómago, vómitos?</h3>
+                                <div class="form-group">
+                                    <label class="container_radio version_2">Si
+                                        <input type="radio" name="question_8" value="Yes" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container_radio version_2">No
+                                        <input type="radio" name="question_8" value="No" class="required">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /step-->
+
+                            <div class="step">
+                                <h3 class="main_question"><i class="arrow_right"></i>Por favor complete con sus datos personales</h3>
+                                <div class="form-group add_top_30">
+                                    <label for="name">Nombre y Apellido</label>
+                                    <input type="text" name="name" id="name" class="form-control required" onchange="getVals(this, 'name_field');">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Direccion Email</label>
+                                    <input type="email" name="email" id="email" class="form-control required" onchange="getVals(this, 'email_field');">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Telefono</label>
+                                    <input type="text" name="phone" id="phone" class="form-control required">
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                                        <label for="age">Edad</label>
+                                        <div class="form-group radio_input">
+                                            <input type="text" name="age" id="age" class="form-control required">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-6 col-8">
+                                        <div class="form-group radio_input">
+                                            <label class="container_radio mr-3">Hombre
+                                                <input type="radio" name="gender" value="Male" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container_radio">Mujer
+                                                <input type="radio" name="gender" value="Female" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /row-->
+                            </div>
+                            <!-- /step-->
+
+                            <div class="submit step" id="end">
+                                <div class="summary">
+                                    <div class="wrapper">
+                                        <h3>Gracias por tu tiempo<br><span id="name_field"></span>!</h3>
+                                        <p>Nos pondremos en contacto con usted a la siguiente dirección de correo electrónico. <strong id="email_field"></strong>y si es necesario, tome medidas.</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="form-group terms">
+                                            <label class="container_check">Por Favor acepte nuestros <a href="#" data-toggle="modal" data-target="#terms-txt">Politica de datos Personales</a> Antes de Enviar
+                                                <input type="checkbox" name="terms" value="Yes" class="required">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /step last-->
+
+                        </div>
+                        <!-- /middle-wizard -->
+                        <div id="bottom-wizard">
+                            <button type="button" name="backward" class="backward">Anterior</button>
+                            <button type="button" name="forward" class="forward">Siguiente</button>
+                            <button type="submit" name="process" class="submit">Enviar</button>
+                        </div>
+                        <!-- /bottom-wizard -->
+                    </form>
+                </div>
+                <!-- /Wizard container -->
+            </div>
+        </div><!-- /Row -->
+    </div><!-- /Form_container -->
+</div>
+<!-- /container -->
+
+<div class="cd-overlay-nav">
+    <span></span>
+</div>
+<!-- /cd-overlay-nav -->
+<div class="cd-overlay-content">
+    <span></span>
+</div>
+<!-- /cd-overlay-content -->
+
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- Modal info -->
+	<div class="modal fade" id="more-info" tabindex="-1" role="dialog" aria-labelledby="more-infoLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="more-infoLabel">Frequently asked questions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+    <!-- /.modal -->
+
+<!-- /container -->
+
+
